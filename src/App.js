@@ -18,7 +18,22 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <div className="App">
-     
+      <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover/>
+
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/blogs' element={<Blogs/>}/>
+        <Route path='/manage-items' element={<ManageItems/>}/>
+        <Route path='/add-item' element={<RequireAuth><AddItem/></RequireAuth>}/>
+        <Route path='/my-items' element={<RequireAuth><MyItems/></RequireAuth>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/update/:id' element={<RequireAuth><Update/></RequireAuth>}/>
+        <Route path='*' element={<NotFound/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }
