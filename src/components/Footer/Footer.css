@@ -10,9 +10,10 @@
 }
 
 .sm-footer span a {
-    color: black;
+    color: yellow;
     text-decoration: none;
     transition: 0.2s;
+    font-weight: bold;
 }
 
 .sm-footer span a:hover {
