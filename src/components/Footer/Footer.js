@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="https://github.com/DevRiazul" target="_blank" rel="noreferrer">
             DevRiazul
           </a>
-          .
+          
         </span>
         <p className="text-end pe-3 m-0">
           <a
