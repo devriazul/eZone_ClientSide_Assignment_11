@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="sm-footer ">
       <div className="container d-flex align-items-center ">
         <span className="ms-3">
-          Copyright © {new Date().getFullYear()} | Powered by{" "}
+          Copyright © {new Date().getFullYear()} | Developed by{" "}
           <a href="https://github.com/DevRiazul" target="_blank" rel="noreferrer">
             DevRiazul
           </a>
