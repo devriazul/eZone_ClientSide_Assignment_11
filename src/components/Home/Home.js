@@ -204,22 +204,22 @@ const Home = () => {
           <h2 className="text-center">Our Advantages</h2>
           <div className="counter-info row text-center mt-5">
             <div className="col-md-3 col-sm-6">
-              <FaTasks color="green" size="50px"/>
+              <FaTasks color="#0B4CA1" size="50px"/>
               <h2 className="my-4">2154</h2>
               <p>Project Done</p>
             </div>
             <div className="col-md-3 col-sm-6">
-              <IoMdGitNetwork color="green"  size="50px"/>
+              <IoMdGitNetwork color="#0B4CA1"  size="50px"/>
               <h2 className="my-4">162</h2>
               <p>Clients Worldwide</p>
             </div>
             <div className="col-md-3 col-sm-6">
-              <FiTruck color="green"  size="50px"/>
+              <FiTruck color="#0B4CA1"  size="50px"/>
               <h2 className="my-4">78</h2>
               <p>Owned Vehicles</p>
             </div>
             <div className="col-md-3 col-sm-6">
-              <RiTeamLine color="green"  size="50px"/>
+              <RiTeamLine color="#0B4CA1"  size="50px"/>
               <h2 className="my-4">245</h2>
               <p>People in Team</p>
             </div>
